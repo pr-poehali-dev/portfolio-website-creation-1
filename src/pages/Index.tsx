@@ -22,6 +22,8 @@ const Index = () => {
     { name: "JavaScript", level: "Advanced", icon: "Code2" },
     { name: "REST API", level: "Expert", icon: "Globe" },
     { name: "Docker", level: "Intermediate", icon: "Container" },
+    { name: "Kubernetes", level: "Intermediate", icon: "Cloud" },
+    { name: "Prompt Engineering", level: "Advanced", icon: "Brain" },
   ];
 
   const projects = [
@@ -64,7 +66,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="font-inter font-bold text-xl text-primary">
-              Вадим Иванов
+              Булгаков Вадим
             </div>
             <div className="hidden md:flex space-x-8">
               <a
@@ -99,8 +101,8 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="font-inter text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Веб-разработчик
-                <span className="text-primary block">полного цикла</span>
+                Архитектор
+                <span className="text-primary block">цифровых решений</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 Создаю современные веб-приложения на PHP и Vue.js.
@@ -131,7 +133,7 @@ const Index = () => {
               <div className="relative">
                 <img
                   src="/img/ea14211f-1a08-4ba5-8f68-1a04a1fa1b80.jpg"
-                  alt="Вадим Иванов - Веб-разработчик"
+                  alt="Булгаков Вадим - Архитектор цифровых решений"
                   className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-primary text-white px-4 py-2 rounded-lg font-medium">
@@ -333,7 +335,7 @@ const Index = () => {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
-                      vadim.ivanov@example.com
+                      vadim.bulgakov@example.com
                     </p>
                   </div>
                 </div>
@@ -429,7 +431,7 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400">
-            © 2024 Вадим Иванов. Все права защищены.
+            © 2024 Булгаков Вадим. Все права защищены.
           </p>
         </div>
       </footer>
